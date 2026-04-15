@@ -489,6 +489,48 @@
       "analysisUnsupported": "注意：图片分析功能尚未支持。图片将被存储以供参考，但模型无法分析。",
       "screenshotTooLarge": "截图太大（{{size}}MB）。最大允许 {{max}}MB。请考虑截取较小的区域。",
       "notAnalyzed": "图片已存储以供参考，但模型未分析。"
+    },
+    "header": {
+      "title": "代码洞察",
+      "subtitle": "询问关于代码库的问题",
+      "newChat": "新建对话"
+    },
+    "emptyState": {
+      "title": "开始对话",
+      "description": "询问关于代码库的问题，获取改进建议，或讨论你想要实现的功能。"
+    },
+    "suggestions": {
+      "architecture": "这个项目的架构是什么？",
+      "codeQuality": "建议改进代码质量",
+      "features": "我可以添加哪些功能？",
+      "security": "有安全隐患吗？"
+    },
+    "input": {
+      "placeholder": "询问关于代码库的问题...",
+      "hint": "按 Enter 发送，Shift+Enter 换行"
+    },
+    "messages": {
+      "thinking": "思考中...",
+      "you": "你",
+      "assistant": "助手"
+    },
+    "sidebar": {
+      "hide": "隐藏侧边栏",
+      "show": "显示侧边栏"
+    },
+    "toolIndicator": {
+      "readingFile": "读取文件",
+      "searchingFiles": "搜索文件",
+      "searchingCode": "搜索代码"
+    },
+    "toolUsage": {
+      "count": "使用了 {{count}} 个工具",
+      "count_other": "使用了 {{count}} 个工具"
+    },
+    "modelSelector": {
+      "agentProfile": "智能体配置",
+      "custom": "自定义...",
+      "chooseModel": "选择模型和思考级别"
     }
   },
   "ideation": {

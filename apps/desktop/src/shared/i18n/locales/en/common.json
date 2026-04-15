@@ -489,6 +489,48 @@
       "analysisUnsupported": "Note: Image analysis is not yet supported. Images are stored for reference but cannot be analyzed by the model.",
       "screenshotTooLarge": "Screenshot is too large ({{size}}MB). Maximum size is {{max}}MB. Consider capturing a smaller area.",
       "notAnalyzed": "Images were stored for reference but not analyzed by the model."
+    },
+    "header": {
+      "title": "Insights",
+      "subtitle": "Ask questions about your codebase",
+      "newChat": "New Chat"
+    },
+    "emptyState": {
+      "title": "Start a Conversation",
+      "description": "Ask questions about your codebase, get suggestions for improvements, or discuss features you'd like to implement."
+    },
+    "suggestions": {
+      "architecture": "What is the architecture of this project?",
+      "codeQuality": "Suggest improvements for code quality",
+      "features": "What features could I add next?",
+      "security": "Are there any security concerns?"
+    },
+    "input": {
+      "placeholder": "Ask about your codebase...",
+      "hint": "Press Enter to send, Shift+Enter for new line"
+    },
+    "messages": {
+      "thinking": "Thinking...",
+      "you": "You",
+      "assistant": "Assistant"
+    },
+    "sidebar": {
+      "hide": "Hide sidebar",
+      "show": "Show sidebar"
+    },
+    "toolIndicator": {
+      "readingFile": "Reading file",
+      "searchingFiles": "Searching files",
+      "searchingCode": "Searching code"
+    },
+    "toolUsage": {
+      "count": "{{count}} tool used",
+      "count_other": "{{count}} tools used"
+    },
+    "modelSelector": {
+      "agentProfile": "Agent Profile",
+      "custom": "Custom...",
+      "chooseModel": "Choose model & thinking level"
     }
   },
   "ideation": {

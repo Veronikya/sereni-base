@@ -489,6 +489,48 @@
       "analysisUnsupported": "Note : L'analyse d'images n'est pas encore prise en charge. Les images sont stockées pour référence mais ne peuvent pas être analysées par le modèle.",
       "screenshotTooLarge": "La capture d'écran est trop volumineuse ({{size}}Mo). La taille maximale est de {{max}}Mo. Essayez de capturer une zone plus petite.",
       "notAnalyzed": "Les images ont été stockées pour référence mais n'ont pas été analysées par le modèle."
+    },
+    "header": {
+      "title": "Insights",
+      "subtitle": "Posez des questions sur votre code",
+      "newChat": "Nouveau chat"
+    },
+    "emptyState": {
+      "title": "Démarrer une conversation",
+      "description": "Posez des questions sur votre code, obtenez des suggestions d'amélioration ou discutez des fonctionnalités que vous souhaitez implémenter."
+    },
+    "suggestions": {
+      "architecture": "Quelle est l'architecture de ce projet ?",
+      "codeQuality": "Suggérer des améliorations pour la qualité du code",
+      "features": "Quelles fonctionnalités puis-je ajouter ensuite ?",
+      "security": "Y a-t-il des problèmes de sécurité ?"
+    },
+    "input": {
+      "placeholder": "Posez une question sur votre code...",
+      "hint": "Appuyez sur Entrée pour envoyer, Maj+Entrée pour nouvelle ligne"
+    },
+    "messages": {
+      "thinking": "Réflexion...",
+      "you": "Vous",
+      "assistant": "Assistant"
+    },
+    "sidebar": {
+      "hide": "Masquer la barre latérale",
+      "show": "Afficher la barre latérale"
+    },
+    "toolIndicator": {
+      "readingFile": "Lecture du fichier",
+      "searchingFiles": "Recherche de fichiers",
+      "searchingCode": "Recherche de code"
+    },
+    "toolUsage": {
+      "count": "{{count}} outil utilisé",
+      "count_other": "{{count}} outils utilisés"
+    },
+    "modelSelector": {
+      "agentProfile": "Profil de l'agent",
+      "custom": "Personnalisé...",
+      "chooseModel": "Choisir le modèle et le niveau de réflexion"
     }
   },
   "ideation": {
