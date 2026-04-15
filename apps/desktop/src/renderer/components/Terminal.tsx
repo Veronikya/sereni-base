@@ -1,5 +1,6 @@
 import { useEffect, useRef, useCallback, useState, useMemo, forwardRef, useImperativeHandle } from 'react';
 import { useDroppable, useDndContext } from '@dnd-kit/core';
+import { useTranslation } from 'react-i18next';
 import '@xterm/xterm/css/xterm.css';
 import { FileDown } from 'lucide-react';
 import { cn } from '../lib/utils';
@@ -115,6 +116,7 @@ export const Terminal = forwardRef<TerminalHandle, TerminalProps>(function Termi
 
   // Toast for user feedback
   const { toast } = useToast();
+  const { t } = useTranslation('terminal');
 
   const associatedTask = terminal?.associatedTaskId
     ? tasks.find((t) => t.id === terminal.associatedTaskId)
@@ -683,9 +685,9 @@ Please confirm you're ready by saying: I'm ready to work on ${selectedTask.title
 
   const handleClearTask = useCallback(() => {
     setAssociatedTask(id, undefined);
-    updateTerminal(id, { title: 'Claude' });
+    updateTerminal(id, { title: t('terminal.claude') });
     // Sync to main process so title persists across hot reloads
-    window.electronAPI.setTerminalTitle(id, 'Claude');
+    window.electronAPI.setTerminalTitle(id, t('terminal.claude'));
   }, [id, setAssociatedTask, updateTerminal]);
 
   // Worktree handlers
@@ -791,7 +793,7 @@ Please confirm you're ready by saying: I'm ready to work on ${selectedTask.title
         <div className="absolute inset-0 bg-info/10 z-10 flex items-center justify-center pointer-events-none">
           <div className="flex items-center gap-2 bg-info/90 text-info-foreground px-3 py-2 rounded-md">
             <FileDown className="h-4 w-4" />
-            <span className="text-sm font-medium">Drop to insert path</span>
+            <span className="text-sm font-medium">{t('terminal.dropToInsertPath')}</span>
           </div>
         </div>
       )}

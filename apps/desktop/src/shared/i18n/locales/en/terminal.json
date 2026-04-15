@@ -1,4 +1,45 @@
 {
+  "taskSelector": {
+    "currentTask": "Current task",
+    "switchTo": "Switch to...",
+    "clearTask": "Clear task",
+    "selectTask": "Select task...",
+    "availableTasks": "Available tasks",
+    "addNewTask": "Add new task",
+    "noTasksAvailable": "No tasks available",
+    "createTasksInKanban": "Create tasks in the Kanban board"
+  },
+  "terminalTitle": {
+    "doubleClickToRename": "Double-click to rename"
+  },
+  "terminalGrid": {
+    "agentTerminals": "Agent Terminals",
+    "agentTerminalsDescription": "Spawn multiple terminals to run Claude agents in parallel. Use {{key}} to create a new terminal.",
+    "newTerminal": "New Terminal",
+    "history": "History",
+    "restoreSessionsFrom": "Restore sessions from...",
+    "invokeClaudeAll": "Invoke Claude All",
+    "files": "Files",
+    "terminalCount": "{{count}} / 12 terminals",
+    "sessionCount": "{{count}} session",
+    "sessionCount_plural": "{{count}} sessions"
+  },
+  "terminal": {
+    "dropToInsertPath": "Drop to insert path",
+    "terminal": "Terminal",
+    "claude": "Claude"
+  },
+  "phase": {
+    "idle": "Ready",
+    "planning": "Planning",
+    "coding": "Coding",
+    "rate_limit_paused": "Rate Limited",
+    "auth_failure_paused": "Auth Required",
+    "qa_review": "QA Review",
+    "qa_fixing": "Fixing",
+    "complete": "Complete",
+    "failed": "Failed"
+  },
   "expand": {
     "expand": "Expand terminal",
     "collapse": "Collapse terminal"

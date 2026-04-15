@@ -111,10 +111,10 @@ export function TerminalHeader({
         {isCLIMode && (
           <span
             className="flex items-center gap-1 text-[10px] font-medium text-primary bg-primary/10 px-1.5 py-0.5 rounded"
-            title="Claude"
+            title={t('terminal:terminal.claude')}
           >
             <Sparkles className="h-2.5 w-2.5" />
-            {terminalCount < 4 && <span>Claude</span>}
+            {terminalCount < 4 && <span>{t('terminal:terminal.claude')}</span>}
           </span>
         )}
         {pendingCLIResume && (
@@ -212,10 +212,10 @@ export function TerminalHeader({
               e.stopPropagation();
               onInvokeClaude();
             }}
-            title="Claude"
+            title={t('terminal:terminal.claude')}
           >
             <Sparkles className="h-3 w-3" />
-            {terminalCount < 4 && <span>Claude</span>}
+            {terminalCount < 4 && <span>{t('terminal:terminal.claude')}</span>}
           </Button>
         )}
         {/* Expand/collapse button */}

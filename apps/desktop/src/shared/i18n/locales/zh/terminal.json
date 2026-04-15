@@ -1,4 +1,45 @@
 {
+  "taskSelector": {
+    "currentTask": "当前任务",
+    "switchTo": "切换到...",
+    "clearTask": "清除任务",
+    "selectTask": "选择任务...",
+    "availableTasks": "可用任务",
+    "addNewTask": "添加新任务",
+    "noTasksAvailable": "暂无可用任务",
+    "createTasksInKanban": "在看板中创建任务"
+  },
+  "terminalTitle": {
+    "doubleClickToRename": "双击重命名"
+  },
+  "terminalGrid": {
+    "agentTerminals": "智能终端",
+    "agentTerminalsDescription": "启动多个终端并行运行 Claude 智能体。使用 {{key}} 创建新终端。",
+    "newTerminal": "新终端",
+    "history": "历史",
+    "restoreSessionsFrom": "从以下日期恢复会话...",
+    "invokeClaudeAll": "全量调用 Claude",
+    "files": "文件",
+    "terminalCount": "{{count}} / 12 个终端",
+    "sessionCount": "{{count}} 个会话",
+    "sessionCount_plural": "{{count}} 个会话"
+  },
+  "terminal": {
+    "dropToInsertPath": "拖放以插入路径",
+    "terminal": "终端",
+    "claude": "Claude"
+  },
+  "phase": {
+    "idle": "就绪",
+    "planning": "规划中",
+    "coding": "编码中",
+    "rate_limit_paused": "速率限制",
+    "auth_failure_paused": "需要认证",
+    "qa_review": "QA 审核",
+    "qa_fixing": "修复中",
+    "complete": "完成",
+    "failed": "失败"
+  },
   "expand": {
     "expand": "展开终端",
     "collapse": "折叠终端"

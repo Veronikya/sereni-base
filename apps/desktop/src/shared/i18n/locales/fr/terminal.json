@@ -1,4 +1,45 @@
 {
+  "taskSelector": {
+    "currentTask": "Tache actuelle",
+    "switchTo": "Passer a...",
+    "clearTask": "Effacer la tache",
+    "selectTask": "Selectionner une tache...",
+    "availableTasks": "Taches disponibles",
+    "addNewTask": "Ajouter une nouvelle tache",
+    "noTasksAvailable": "Aucune tache disponible",
+    "createTasksInKanban": "Creez des taches dans le tableau Kanban"
+  },
+  "terminalTitle": {
+    "doubleClickToRename": "Double-cliquez pour renommer"
+  },
+  "terminalGrid": {
+    "agentTerminals": "Terminaux Agent",
+    "agentTerminalsDescription": "Demarrez plusieurs terminaux pour executer des agents Claude en parallele. Utilisez {{key}} pour creer un nouveau terminal.",
+    "newTerminal": "Nouveau Terminal",
+    "history": "Historique",
+    "restoreSessionsFrom": "Restaurer les sessions de...",
+    "invokeClaudeAll": "Invoquer Claude Tous",
+    "files": "Fichiers",
+    "terminalCount": "{{count}} / 12 terminaux",
+    "sessionCount": "{{count}} session",
+    "sessionCount_plural": "{{count}} sessions"
+  },
+  "terminal": {
+    "dropToInsertPath": "Deposez pour inserer le chemin",
+    "terminal": "Terminal",
+    "claude": "Claude"
+  },
+  "phase": {
+    "idle": "Pret",
+    "planning": "Planification",
+    "coding": "Codage",
+    "rate_limit_paused": "Limite de taux",
+    "auth_failure_paused": "Auth requise",
+    "qa_review": "Revue QA",
+    "qa_fixing": "Correction",
+    "complete": "Termine",
+    "failed": "Echec"
+  },
   "expand": {
     "expand": "Agrandir le terminal",
     "collapse": "Reduire le terminal"
